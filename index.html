@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+      <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+      <link rel="stylesheet" type="text/css" href="resources/css/navbar.css">
+      <link rel="stylesheet" type="text/css" href="resources/css/gallery.css">
+      <link rel="stylesheet" type="text/css" href="resources/css/questions-accordion.css">
+      <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+      <title>Creative design</title>
+   </head>
+   <body>
+      <header>
+         <div>
+            <ul>
+               <img src="resources/images/logo1.png" alt="logo" class="logo1">
+               <li>
+                  <h4 class="html"><strong>HTML 5</strong></h4>
+               </li>
+               <li class="right" id="dreapta">
+                  GET IN TOUCH<br>
+                  <strong>
+                     <p class="p1">CONTACT US</p>
+                  </strong>
+               </li>
+               <li class="right">
+                  LEARN MORE<br>
+                  <strong>
+                     <p class="p1">ABOUT US</p >
+                  </strong>
+               </li>
+               <li class="right" >
+                  JOIN US<br>
+                  <strong>
+                     <p class="p1">REGISTER</p>
+                  </strong>
+               </li>
+            </ul>
+         </div>
+        <div class="topnav"> 
+          <div id="navbar">
+                <a href="javascript:void(0)"> <i class="fas fa-home"></i></a>   
+                <a href="javascript:void(0)">HTML</a>   
+                <a href="javascript:void(0)" >CSS</a>   
+                <a href="javascript:void(0)" >JAVASCRIPT</a>   
+                <a href="javascript:void(0)" >SQL</a>   
+                <a href="javascript:void(0)" >PHP</a>   
+                <a href="javascript:void(0)" >BOOTSTRAP</a>   
+                <a href="javascript:void(0)" >JQUERY</a>   
+                <a href="javascript:void(0)" >ANGULAR</a>   
+                <a href="javascript:void(0)" >XML</a>   
+          </div>
+         <a href="javascript:void(0);" class="hamburger-icon" onclick="toggleNavbar()">
+            <i class="fa fa-bars"></i>
+         </a>
+        </div>     
+      </header>
+      <section class="background">
+         <h1>CREATIVE <span class="title">DESIGN</span></h1>
+         <p>Pel entesque egastas ornare sagittis. Sed augue lorem,<br> dignissim eget bibendum vitae, scelerisque eget justo.<br>Duis tincidunt erat quam.</p>
+         <div class="center">
+            <button>LEARN MORE ></button>
+         </div>
+         <div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+         </div>
+         <div style="text-align:center">
+            <i class="fas fa-circle"></i>
+            <i class="far fa-circle"></i>
+            <i class="far fa-circle"></i>
+         </div>
+      </section>
+      <section class="project">
+         <h2 class="our">OUR PROJECTS</h2>
+         <div class="sort">
+            <p>SORT BY</p>
+            <button class="dropbtn">Newest Entries<i class="fas fa-angle-down"></i></button>
+         </div>
+         <div class="images">
+            <div class="image">
+               <img src="resources/images/1.jpg" alt="">
+               <span>PROJECT NAME</span>
+            </div>
+            <div class="image">
+               <img src="resources/images/2.jpg" alt="">
+               <span>PROJECT NAME</span>
+            </div>
+            <div class="image">
+               <img src="resources/images/3.jpg" alt="">
+               <span>PROJECT NAME</span>
+            </div>
+            <div class="image">
+               <img src="resources/images/4.jpg" alt="">
+               <span>PROJECT NAME</span>
+            </div>
+            <div class="image">
+               <img src="resources/images/5.jpg" alt="">
+               <span>PROJECT NAME</span>
+            </div>
+            <div class="image">
+               <img src="resources/images/6.jpg" alt="">
+               <span >PROJECT NAME</span>
+            </div>
+         </div>
+      </section>
+      <section class="questions">
+         <h3 class="got">GOT QUESTIONS ?</h3>
+         <ul class="accordion" id="accordion">
+            <li>
+            <div class="accordion-title"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span><span class="accordion-arrow"></span></div>
+               <div class="accordion-body" style="height: auto !important;" >
+                  <div class="accordion-body--left">
+                     <img src="resources/images/logos.png" alt="">
+                  </div>
+                  <div class="accordion-body--right">
+                     <div>Sed laoreet mauris ac enim semper lobortis. Vivamus pharetra convallis dolor ut aliquam. Sed augue augue, consequat vel erat eget, pulvinar suscipit augue. Sed eu ante et leo ullamcorper porttitor. Integer tempor sapien purus, quis facilisis nunc placerat nec. Maecenas aliquam efficitur euismod. Suspendisse congue diam velit, sit amet dignissim diam volutpat quis. Nullam dapibus urna sit amet imperdiet tempor. Suspendisse congue diam velit, sit amet dignissim diam volutpat quis. Nullam dapibus urna sit amet imperdiet tempor.Vivamus tristique mauris ut purus consectetur fermentum. Nullam sed ex fermentum, tempor felis quis, eleifend eros. Suspendisse ut facilisis diam, nec ultricies lorem.</div>
+                     <div class="accordion-body--footer">
+                        <div class="second-paragraph">Aliquam vitae orci at necue tempus varius eleifend a lorem. Ut vestibulum viverra tristique. Etiam imperdiet ultricies diam at dignissim.</div>
+                        <button class="button">Do something</button>
+                     </div>
+                  </div>
+               </div>
+            </li>
+            <li>
+               <div class="accordion-title"><span>Vivamus iaculis mollis nibh</span><span class="accordion-arrow"></span></div>
+               <div class="accordion-body" style="height: auto !important;">
+                  <div class="accordion-body--left">
+                     <img src="resources/images/logos.png" alt="">
+                  </div>
+                  <div class="accordion-body--right">
+                     <div>Sed laoreet mauris ac enim semper lobortis. Vivamus pharetra convallis dolor ut aliquam. Sed augue augue, consequat vel erat eget, pulvinar suscipit augue. Sed eu ante et leo ullamcorper porttitor. Integer tempor sapien purus, quis facilisis nunc placerat nec. Maecenas aliquam efficitur euismod. Suspendisse congue diam velit, sit amet dignissim diam volutpat quis. Nullam dapibus urna sit amet imperdiet tempor. Suspendisse congue diam velit, sit amet dignissim diam volutpat quis. Nullam dapibus urna sit amet imperdiet tempor.Vivamus tristique mauris ut purus consectetur fermentum. Nullam sed ex fermentum, tempor felis quis, eleifend eros. Suspendisse ut facilisis diam, nec ultricies lorem.</div>
+                     <div class="accordion-body--footer">
+                        <div class="second-paragraph">Aliquam vitae orci at necue tempus varius eleifend a lorem. Ut vestibulum viverra tristique. Etiam imperdiet ultricies diam at dignissim.</div>
+                        <button class="button">Do something</button>
+                     </div>
+                  </div>
+               </div>
+            </li>
+            <li>
+               <div class="accordion-title"><span>Aliquam fermentum justo at lorem ultrices</span><span class="accordion-arrow"></span></div>
+               <div class="accordion-body" style="height: auto !important;">
+                  <div class="accordion-body--left">
+                     <img src="resources/images/logos.png" alt="">
+                  </div>
+                  <div class="accordion-body--right">
+                     <div>Sed laoreet mauris ac enim semper lobortis. Vivamus pharetra convallis dolor ut aliquam. Sed augue augue, consequat vel erat eget, pulvinar suscipit augue. Sed eu ante et leo ullamcorper porttitor. Integer tempor sapien purus, quis facilisis nunc placerat nec. Maecenas aliquam efficitur euismod. Suspendisse congue diam velit, sit amet dignissim diam volutpat quis. Nullam dapibus urna sit amet imperdiet tempor. Suspendisse congue diam velit, sit amet dignissim diam volutpat quis. Nullam dapibus urna sit amet imperdiet tempor.Vivamus tristique mauris ut purus consectetur fermentum. Nullam sed ex fermentum, tempor felis quis, eleifend eros. Suspendisse ut facilisis diam, nec ultricies lorem.</div>
+                     <div class="accordion-body--footer">
+                        <div class="second-paragraph">Aliquam vitae orci at necue tempus varius eleifend a lorem. Ut vestibulum viverra tristique. Etiam imperdiet ultricies diam at dignissim.</div>
+                        <button class="button">Do something</button>
+                     </div>
+                  </div>
+               </div>
+            </li>
+         </ul>
+      </section>
+      <footer>
+         <div class="row">
+            <div class="col span-1-of-5">
+               <ul>
+                  <li style="margin-top: 90px;">Good Job</li>
+                  <br>
+                  <li class="red"><i></i>Five lists</li>
+                  <br>
+                  <li class="red"><i></i>Full of links</li>
+                  <br>
+                  <li class="red"><i></i>More than 1 color</li>
+               </ul>
+            </div>
+            <div class="col span-1-of-5">
+               <ul>
+                  <li style="margin-top: 90px;">Looks Great</li>
+                  <br>
+                  <li class="blue"><i></i>These bullets...</li>
+                  <br>
+                  <li class="blue"><i></i>Makes it a little bit</li>
+                  <br>
+                  <li class="blue"><i></i>But we have fate !</li>
+               </ul>
+            </div>
+            <div class="col span-1-of-5">
+               <ul>
+                  <li style="margin-top: 90px;">Keep It Like This</li>
+                  <br>
+                  <li class="red"><i></i>Unordered list ?</li>
+                  <br>
+                  <li class="red"><i></i>Is the way to go ?</li>
+                  <br>
+                  <li class="red"><i></i>It's your choise</li>
+               </ul>
+            </div>
+            <div class="col span-1-of-5">
+               <ul>
+                  <li style="margin-top: 90px;">Nice Progress</li>
+                  <br>
+                  <li class="blue"><i></i>Seems like you got it</li>
+                  <br>
+                  <li class="blue"><i></i>Easy, huh ?</li>
+                  <br>
+                  <li class="blue"><i></i>Eh, easy for you</li>
+               </ul>
+            </div>
+            <div class="col span-1-of-5">
+               <ul>
+                  <li style="margin-top: 90px;">Your're Almost Done</li>
+                  <br>
+                  <li class="red"><i></i>Just 2 items more</li>
+                  <br>
+                  <li class="red"><i></i>And now its the time</li>
+                  <br>
+                  <li class="red" style="margin-bottom: 50px;;"><i></i>To review your work :)</li>
+               </ul>
+            </div>
+            <img src="resources/images/footer.jpg" style="width: 100%;
+               height: auto;margin-top: 40px;">
+            <div class="logo-footer">
+               <p style="color: #757676;">Opacity is easy these days, isn't it ?</p>
+               <img src="resources/images/logo2.png">
+               <p style="color: #fff;">Thanks for your effort !</p>
+            </div>
+         </div>
+      </footer>
+      <script src="https://kit.fontawesome.com/85cd4a5dbc.js" crossorigin="anonymous"></script>    
+      <script src="resources/js/jquery-3.5.1.js"></script>
+      <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+      <script src="resources/js/script.js"></script>
+      <script src="resources/js/mobile-nav.js"></script>
+      <script src="resources/js/questions-accordion.js"></script>
+   </body>
+</html>

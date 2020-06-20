@@ -1,0 +1,33 @@
+.images {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 1582px;
+	margin: 0 auto;
+}
+
+.image {
+	width: 33.333%;
+	height: auto;
+	display: block;
+	position: relative;
+	padding: 35px;
+}
+
+.image img {
+	width: 100%;
+	height: auto;
+}
+
+.image:hover img {
+    transform: scale(1.1);
+}
+
+.image span {
+	position: absolute;
+	z-index: 2;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-weight: bold;
+}

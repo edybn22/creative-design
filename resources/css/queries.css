@@ -1,0 +1,48 @@
+/*TABLET*/
+@media screen and (max-width: 900px) {
+	section {
+		padding: 0;
+	}
+	.image {
+		width: 49.999%;
+	}
+	footer .row {
+        margin-left: 24px;
+        margin-right: 24px;
+        font-size: small;
+    }
+    header div ul li {
+        display: none;
+    }
+    .logo1 {
+        width: 30px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    a.prev { margin-left: 5px;}
+    a.next { margin-right: 5px;}
+    .background p {
+        font-size: 15px;
+    }
+    .project {
+        height: auto;
+    }
+}
+
+/*MOBILE*/
+@media screen and (max-width: 640px) {
+	section {
+		padding: 0;
+	}
+	.image {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	footer .row div {
+        display: flex;
+        justify-content: center;
+        height: auto;
+    }
+}
